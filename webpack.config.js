@@ -1,11 +1,17 @@
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = (env, argv) => {
     let confObj = {
 	mode: 'production',
 	entry: './src/index.js',
+	plugins: [
+	    new HtmlWebpackPlugin({
+		title: "CHANGEME",
+	    }),
+	],
 	output: {
-	    filename: 'main.js',
+	    filename: '[name].bundle.js',
 	    path: pathTo('dist'),
 	},
 	module: {

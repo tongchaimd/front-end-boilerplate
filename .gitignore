@@ -219,5 +219,4 @@ zsdoc/data
 
 # End of https://www.gitignore.io/api/git,vim,zsh,node,linux,windows
 
-dist/*
-!dist/index.html
+dist/
