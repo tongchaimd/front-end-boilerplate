@@ -1,6 +1,6 @@
 function component() {
     const element = document.createElement('div');
-    element.innerHTML = "whoops";
+    element.innerHTML = "Lorem Ipsum";
     return element;
 }
 
