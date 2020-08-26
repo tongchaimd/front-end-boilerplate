@@ -6,9 +6,7 @@ module.exports = (env, argv) => {
 	mode: 'production',
 	entry: './src/index.js',
 	plugins: [
-	    new HtmlWebpackPlugin({
-		title: "CHANGEME",
-	    }),
+	    new HtmlWebpackPlugin(),
 	],
 	output: {
 	    filename: '[name].bundle.js',

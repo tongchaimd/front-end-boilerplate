@@ -5,3 +5,4 @@ function component() {
 }
 
 document.body.appendChild(component());
+document.title = "Lorem";
