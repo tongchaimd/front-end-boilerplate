@@ -23,7 +23,7 @@ npm run build
 - [__webpack-dev-server__](https://webpack.js.org/configuration/dev-server/)
 
   runs development server (npm start).
-- [**html-webpack-plugin**](https://webpack.js.org/plugins/html-webpack-plugin/)
+- [__html-webpack-plugin__](https://webpack.js.org/plugins/html-webpack-plugin/)
   
   generates dist/index.html.
 ### Files & Directories
