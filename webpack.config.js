@@ -11,6 +11,7 @@ module.exports = (env, argv) => {
 	output: {
 	    filename: '[name].bundle.js',
 	    path: pathTo('dist'),
+	    publicPath: '/',
 	},
 	module: {
 	    rules: [
